@@ -55,7 +55,7 @@ jobs:
           path: .
           
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v4
+        uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
           app-name: 'lively-forest-b2c69bb6000441fa875c9cdef60d4d4b'
